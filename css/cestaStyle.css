@@ -1,0 +1,15 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#info-bar div{
+	display: inline-block;
+}
+
+#info-bar{
+	width: 100%;
+	height: 40px;
+	color: #000;
+	
+} 

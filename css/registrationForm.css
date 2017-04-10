@@ -1,0 +1,58 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #c4c4c4;
+	background-image: url("../img/blur2.jpg");
+}
+
+.registration-form-wrapper{
+	width: 500px;
+	margin: 20px auto;
+}
+
+#registrationForm{
+	width: 100%;
+	text-align: center;
+	vertical-align: top;
+	color: #2196F3;
+	border: 1px solid grey;
+	background-color: rgba(38,38,38,0.7);
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 7px 3px rgba(33,150,243,0.7)
+}
+
+.datos-personales{
+	display: inline-block;
+	width: 49%;
+	float: left;
+
+}
+
+.datos-envio{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	border-left: 2px solid  #2196F3;
+	float:right;
+}
+
+a{
+	color: #C13E40;
+	text-decoration: none;
+}
+
+fieldset{
+	display: block;
+	width: 145px;
+	margin: 0px auto;
+	border-color: #2196F3; 
+	color: #fff;
+	
+}
+
+legend{
+	color: #2196F3;
+}
+.clearfix{
+	clear:both;
+}

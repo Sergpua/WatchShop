@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="C:\Users\Public\Pictures\Sample Pictures\cat.gif">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.firstblock{
+		height: 200px;
+		background-color: yellow;
+	}
+		.padre{
+			background-color: #ccc;
+			outline: 1px solid blue;
+			height: 300px;
+			padding: 10px;
+		}
+		.hijo{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			background-color: lime;
+			outline: 1px solid red;
+			height: 100px;
+		}
+		#menu{
+			display:block;
+			width: 10%;
+			background: #ccc;
+		}
+		
+		#primero{
+			display: block;
+		}
+
+		#primero:hover{
+			background-color: lime;
+		}
+
+		#primero:hover>ul{
+			background-color: #ccc;
+			display: block;
+		}
+		
+		ul{
+			display: none;
+		}
+
+	</style>
+</head>
+<body>
+<div class="firstblock"></div>
+<div class="padre">
+		<div class="hijo"></div>
+		<textarea name="" placeholder="Deja comentario" id="" cols="30" rows="10"></textarea>
+	</div>	
+<ul id="menu">
+	<li id="primero"><a href="#">asadsfd</a>
+		<ul>
+			<li><a href="#">assdfdad</a></li>
+			<li><a href="#">assdfsad</a></li>
+			<li><a href="#">asewfad</a></li>
+		</ul>
+	</li>
+	<li>sdfsf</li>
+	<li>sdfsf</li>
+	<li>sdfsfs</li>
+</ul>
+</body>
+</html>
