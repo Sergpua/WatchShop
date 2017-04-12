@@ -1,51 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Registration</title>
-	<link rel="stylesheet" href="css/registrationForm.css">
-	<link rel="icon" href="img/registrationIcon.png">
+  <meta charset="UTF-8">
+  <title>Registration</title>
+  <link rel="stylesheet" href="css/registrationForm.css">
+  <link rel="icon" href="img/registrationIcon.png">
 </head>
 <body>
-	<div class="registration-form-wrapper">
-		<form id="registrationForm" action="regisrationSacsessful.html" method="POST">
-			<h1>Datos de registro</h1>
-			<div class="datos-personales">
-				<input id="nombre" type="text" placeholder="Nombre" required list="listik"><br><br>
-					<datalist id="listik">
-			<option value="1"></option>
-			<option value="2"></option>
-			<option value="3"></option>
-					</datalist>
-				<input class="apellido" type="text" placeholder="Apellido" ><br><br>
-					<a href="#">Añadir campo de apellido</a><br><br>
-				<input type="password" placeholder="Contraseña" required><br><br>
-				<input type="tel" placeholder="Telefono móvil" pattern="[0-9]{9}"><br><br>
-				<select name="genero" id="genero" >
-					<option value="hombre">Hombre</option>
-					<option value="Mujer">Mujer</option>	
-				</select> <label for="genero">Genero</label><br><br>
-				<input type="range"> <label for="genero" min="18" max="100" step="1">Edad</label><br><br>
-			</div>
-			<div class="datos-envio">
-				<input id="pais" type="text" placeholder="Pais"><br><br>
-				<input id="comunidad" type="text" placeholder="Comunidad"><br><br>
-				<input id="ciudad" type="text" placeholder="Ciudad"><br><br>
-				<input id="codigoPostal" type="text" placeholder="Codigo Postal"><br><br>
-				<input id="calle" type="text" placeholder="Calle"><br><br>
-				<input id="numeroDeEdificio" type="text" placeholder="Numero"><br><br>
-				<input id="piso" type="text" placeholder="Piso"><br><br>
-				<input id="letraDePuerta" type="text" placeholder="Letra"><br><br>
-				<fieldset>
-					<legend>Enviar con:</legend>
-					<input id="envio1" type="radio" name="envio" checked> <label for="envio1">OFICINA 1</label><br><br>
-					<input id="envio2" type="radio" name="envio"> <label for="envio2">OFICINA 2</label>
-				</fieldset><br>
-			</div>
-			<div class="clearfix"></div><br>
-			<input type="reset" value="Borrar">
-			<input type="submit" value="Registrarse"><br><br>
-		</form>
-	</div>
+  <div class="registration-form-wrapper shadow">
+    <form id="registrationForm" action="regisrationSacsessful.html" method="POST">
+      <h1>Datos de registro</h1>
+      <div class="datos-personales">
+        <input id="nombre" type="text" placeholder="Nombre" required><br><br>
+        <input class="apellido" type="text" placeholder="Primer apellido" ><br><br>
+        <input class="apellido" type="text" placeholder="Segundo apellido"><br><br>
+        <input type="password" placeholder="Contraseña" required><br><br>
+        <input type="password" placeholder="Correo electronico" required><br><br>
+        <input type="tel" placeholder="Telefono móvil" pattern="[0-9]{9}"><br><br>
+        <select name="genero" id="genero" >
+          <option value="hombre">Hombre</option>
+          <option value="Mujer">Mujer</option>  
+        </select> <label for="genero">Genero</label><br><br>
+      </div>
+      <div class="datos-envio">
+        <input id="pais" type="text" placeholder="Pais"><br><br>
+        <input id="comunidad" type="text" placeholder="Comunidad"><br><br>
+        <input id="ciudad" type="text" placeholder="Ciudad"><br><br>
+        <input id="codigoPostal" type="text" placeholder="Codigo Postal"><br><br>
+        <input id="calle" type="text" placeholder="Calle"><br><br>
+        <input id="numeroDeEdificio" type="text" placeholder="Numero"><br><br>
+        <input id="piso" type="text" placeholder="Piso"><br><br>
+        <input id="letraDePuerta" type="text" placeholder="Letra"><br><br>
+        <fieldset>
+          <legend>Enviar con:</legend>
+          <input id="envio1" type="radio" name="envio" checked> <label for="envio1">OFICINA 1</label><br><br>
+          <input id="envio2" type="radio" name="envio"> <label for="envio2">OFICINA 2</label>
+        </fieldset><br>
+      </div>
+      <div class="clearfix"></div><br>
+      <input type="reset" value="Borrar">
+      <input type="submit" value="Registrarse"><br><br>
+    </form>
+  </div>
 </body>
 </html>
